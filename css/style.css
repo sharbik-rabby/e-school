@@ -24,7 +24,7 @@ body{
 /* common css */
 /* header start */
 header{
-background-color: #F0FFF0;
+     background-color: #F0FFF0;
  
 }
 .cnav{
@@ -71,8 +71,8 @@ width: 200px ;
 /* header end */
 /* banner start  */
 .banner{
- padding: 40px 0 60px;
- background-color: #F0FFF0;
+    padding: 90px 0 60px;
+    background-color: #F0FFF0;
 }
 .b_text{}
 .bp1{
@@ -199,36 +199,31 @@ width: 100%;
 .mr_0
 
 /* Courses end */
-/*  testimony carousel starts from here */
-.carouselC{
-    margin-top: 50px;
+/* testimony start */
+.t_slider{
+    margin-top: 60px;
 }
-.t_h1{
-    margin-bottom: 75px;
+.t_img{
+    padding-left: 175px;
+    padding-bottom: 50px;
 }
-.cIndecator{
-    margin-bottom: -4rem;
-    
-}
-.sliderImg{
-    width: 100%;
-}
-.sliderImg img{
-    margin: -7px 0 0px 45px;
-    background: #C4C4C4;
+.t_img img{
+    background: url(.jpg), #C4C4C4;
     border-radius: 50%;
 }
-.sliderText{}
-.sliderText p{
-    margin-top: 12px;
-    color: #000000;
+.t_text{
+    margin-top: 16px;
+    padding: 0 15px 0 15px;
+    line-height: 30px;
 }
+.t_text p{
 
-/* testimony carousel ends here */
+}
+/* testimony end */
 
 /* footer start */
 footer{
-    margin-top: 110px;
+    margin-top: 50px;
     padding: 60px 0 25px;
     height: 400px;
     background-color:#282531;
@@ -263,4 +258,40 @@ footer{
     color: #CDCDCD;
 
 }
+.sharbik{
+    text-decoration: none;
+    color: #CDCDCD;
+    transition:.33s e;
+}
+.sharbik:hover{
+    color: #FD511A;
+}
+
+
+
+#mybtn {
+
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #21B573; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
+  }
+  #mybtn:hover {
+    background-color: #FD511A; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+
+
+
 /* footer end */
